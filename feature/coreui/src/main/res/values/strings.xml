@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">coreui</string>
+
+    <string name="dialogErrorTitle">Error</string>
+    <string name="dialogErrorContent">Smth. get wrong</string>
+    <string name="dialogOk">OK</string>
+    <string name="search_hint_channels">Напишите название телеканала</string>
+    <string name="channel_tab_all">Все</string>
+    <string name="channel_tab_favs">Избранные</string>
+</resources>

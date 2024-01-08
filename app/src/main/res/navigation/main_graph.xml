@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainChannelFragment">
+
+    <fragment
+        android:id="@+id/mainChannelFragment"
+        android:name="com.tvchannels.sample.app.ui.main.MainChannelFragment"
+        tools:layout="@layout/fragment_main_channel">
+
+        <action
+            android:id="@+id/actionToPlayer"
+            app:destination="@id/playerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/playerFragment"
+        android:name="com.tvchannels.sample.app.ui.main.player.PlayerFragment"
+        tools:layout="@layout/fragment_player">
+
+        <argument
+            android:name="args"
+            app:argType="com.tvchannels.sample.app.ui.main.player.PlayerArgs" />
+    </fragment>
+</navigation>

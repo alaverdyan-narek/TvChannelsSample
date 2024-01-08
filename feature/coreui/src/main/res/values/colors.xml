@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_grey">#343438</color>
+    <color name="light_grey_blue">#E9EAEF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nightBrand">#404247</color>
+    <color name="nightSeattle">#808185</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="light_grey">#D1D5DF</color>
+    <color name="grey_faded_mist">#99D1D5DF</color>
+    <color name="light_grey_40">#66D1D5DF</color>
+    <color name="main_blue">#0077FF</color>
+</resources>
